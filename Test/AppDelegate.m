@@ -7,6 +7,17 @@
 //
 
 #import "AppDelegate.h"
+#import "TestMonitorVC.h"
+#import "ViewController.h"
+#import "RunLoopMonitor.h"
+#import "PerformanceMonitor.h"
+#import "HitTestViewController.h"
+#import "ObjectVC.h"
+#import "NSArrayVC.h"
+#import "MemoryRefenceVC.h"
+#import "ARCRefreceVC.h"
+#import "TestViewController.h"
+#import "HookTestVC.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +28,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+//    [[RunLoopMonitor shareInstance] startMonitor];
+
+//    [[PerformanceMonitor sharedInstance] start];
+    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[HookTestVC new]];
+    self.window.frame = [UIScreen mainScreen].bounds;
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

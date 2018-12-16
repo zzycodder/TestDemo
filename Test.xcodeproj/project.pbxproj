@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED0E61C020FDC05B00D5C0A3 /* RunLoopMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = ED0E61BF20FDC05B00D5C0A3 /* RunLoopMonitor.m */; };
+		ED0E61C320FDC09C00D5C0A3 /* TestMonitorVC.m in Sources */ = {isa = PBXBuildFile; fileRef = ED0E61C220FDC09C00D5C0A3 /* TestMonitorVC.m */; };
+		ED0E61C520FDC1E500D5C0A3 /* test.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ED0E61C420FDC1E500D5C0A3 /* test.jpeg */; };
+		ED0E61C820FDD73B00D5C0A3 /* PerformanceMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = ED0E61C720FDD73B00D5C0A3 /* PerformanceMonitor.m */; };
+		ED2C9CC921B7B4C600D1DB94 /* ArcRefennceObj.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2C9CC821B7B4C600D1DB94 /* ArcRefennceObj.m */; };
+		ED30B69721C694FB000E0429 /* HookTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = ED30B69621C694FB000E0429 /* HookTestVC.m */; };
+		ED30B69A21C69518000E0429 /* HookTestVC+OneHookMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = ED30B69921C69518000E0429 /* HookTestVC+OneHookMethod.m */; };
+		ED30B69D21C69524000E0429 /* HookTestVC+TwoHookMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = ED30B69C21C69524000E0429 /* HookTestVC+TwoHookMethod.m */; };
+		ED345C5820E7A3E60082CB50 /* AObj.m in Sources */ = {isa = PBXBuildFile; fileRef = ED345C5720E7A3E60082CB50 /* AObj.m */; };
+		ED345C5B20E7A3F10082CB50 /* BObj.m in Sources */ = {isa = PBXBuildFile; fileRef = ED345C5A20E7A3F10082CB50 /* BObj.m */; };
+		ED49B68F210EF24400D5D225 /* HitTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED49B68E210EF24400D5D225 /* HitTestViewController.m */; };
+		ED49B692210EF29D00D5D225 /* HitTestButton.m in Sources */ = {isa = PBXBuildFile; fileRef = ED49B691210EF29D00D5D225 /* HitTestButton.m */; };
+		ED49B695210EFAC100D5D225 /* HitTestSuperView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED49B694210EFAC100D5D225 /* HitTestSuperView.m */; };
+		ED9D6DFA21919BF00037A2A4 /* PropertyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = ED9D6DF921919BF00037A2A4 /* PropertyVC.m */; };
+		ED9D6DFD2191CE8C0037A2A4 /* PropertySubVC.m in Sources */ = {isa = PBXBuildFile; fileRef = ED9D6DFC2191CE8C0037A2A4 /* PropertySubVC.m */; };
+		EDA60B0D21A7DC3B00D0C12C /* NSArrayVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA60B0C21A7DC3B00D0C12C /* NSArrayVC.m */; };
 		EDA99FD320B13B3B009C4C64 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA99FD220B13B3B009C4C64 /* AppDelegate.m */; };
 		EDA99FD620B13B3B009C4C64 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA99FD520B13B3B009C4C64 /* ViewController.m */; };
 		EDA99FD920B13B3C009C4C64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDA99FD720B13B3C009C4C64 /* Main.storyboard */; };
@@ -15,6 +31,15 @@
 		EDA99FE120B13B3C009C4C64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA99FE020B13B3C009C4C64 /* main.m */; };
 		EDA99FEB20B13B3D009C4C64 /* TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA99FEA20B13B3D009C4C64 /* TestTests.m */; };
 		EDA99FF620B13B3D009C4C64 /* TestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA99FF520B13B3D009C4C64 /* TestUITests.m */; };
+		EDAE104421AAA61800B1B9B3 /* MemoryRefenceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EDAE104321AAA61800B1B9B3 /* MemoryRefenceVC.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EDAE108521AAB18200B1B9B3 /* MemoryObject.m in Sources */ = {isa = PBXBuildFile; fileRef = EDAE108421AAB18200B1B9B3 /* MemoryObject.m */; };
+		EDAE108821AADE4A00B1B9B3 /* ARCRefreceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EDAE108721AADE4A00B1B9B3 /* ARCRefreceVC.m */; };
+		EDBFA014214228DF0068F2A5 /* ViewController+HockMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = EDBFA013214228DF0068F2A5 /* ViewController+HockMethod.m */; };
+		EDD6662421C242A30080939F /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD6662321C242A30080939F /* TestViewController.m */; };
+		EDE54F24219ABBC200248AA6 /* ObjectVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE54F23219ABBC200248AA6 /* ObjectVC.m */; };
+		EDE54F27219ABBEB00248AA6 /* MessageInvokeObj.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE54F26219ABBEB00248AA6 /* MessageInvokeObj.m */; };
+		EDE54F2A219AC7B200248AA6 /* InvokeMethodObj.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE54F29219AC7B200248AA6 /* InvokeMethodObj.m */; };
+		EDE54F2D219D821800248AA6 /* ClickButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE54F2C219D821800248AA6 /* ClickButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +60,37 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		ED0E61BE20FDC05B00D5C0A3 /* RunLoopMonitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunLoopMonitor.h; sourceTree = "<group>"; };
+		ED0E61BF20FDC05B00D5C0A3 /* RunLoopMonitor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunLoopMonitor.m; sourceTree = "<group>"; };
+		ED0E61C120FDC09C00D5C0A3 /* TestMonitorVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestMonitorVC.h; sourceTree = "<group>"; };
+		ED0E61C220FDC09C00D5C0A3 /* TestMonitorVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestMonitorVC.m; sourceTree = "<group>"; };
+		ED0E61C420FDC1E500D5C0A3 /* test.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test.jpeg; sourceTree = "<group>"; };
+		ED0E61C620FDD73A00D5C0A3 /* PerformanceMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PerformanceMonitor.h; sourceTree = "<group>"; };
+		ED0E61C720FDD73B00D5C0A3 /* PerformanceMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PerformanceMonitor.m; sourceTree = "<group>"; };
+		ED2C9CC721B7B4C600D1DB94 /* ArcRefennceObj.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArcRefennceObj.h; sourceTree = "<group>"; };
+		ED2C9CC821B7B4C600D1DB94 /* ArcRefennceObj.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArcRefennceObj.m; sourceTree = "<group>"; };
+		ED30B69521C694FB000E0429 /* HookTestVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HookTestVC.h; sourceTree = "<group>"; };
+		ED30B69621C694FB000E0429 /* HookTestVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HookTestVC.m; sourceTree = "<group>"; };
+		ED30B69821C69518000E0429 /* HookTestVC+OneHookMethod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HookTestVC+OneHookMethod.h"; sourceTree = "<group>"; };
+		ED30B69921C69518000E0429 /* HookTestVC+OneHookMethod.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "HookTestVC+OneHookMethod.m"; sourceTree = "<group>"; };
+		ED30B69B21C69524000E0429 /* HookTestVC+TwoHookMethod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HookTestVC+TwoHookMethod.h"; sourceTree = "<group>"; };
+		ED30B69C21C69524000E0429 /* HookTestVC+TwoHookMethod.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "HookTestVC+TwoHookMethod.m"; sourceTree = "<group>"; };
+		ED345C5620E7A3E60082CB50 /* AObj.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AObj.h; sourceTree = "<group>"; };
+		ED345C5720E7A3E60082CB50 /* AObj.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AObj.m; sourceTree = "<group>"; };
+		ED345C5920E7A3F10082CB50 /* BObj.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BObj.h; sourceTree = "<group>"; };
+		ED345C5A20E7A3F10082CB50 /* BObj.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BObj.m; sourceTree = "<group>"; };
+		ED49B68D210EF24400D5D225 /* HitTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HitTestViewController.h; sourceTree = "<group>"; };
+		ED49B68E210EF24400D5D225 /* HitTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HitTestViewController.m; sourceTree = "<group>"; };
+		ED49B690210EF29D00D5D225 /* HitTestButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HitTestButton.h; sourceTree = "<group>"; };
+		ED49B691210EF29D00D5D225 /* HitTestButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HitTestButton.m; sourceTree = "<group>"; };
+		ED49B693210EFAC100D5D225 /* HitTestSuperView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HitTestSuperView.h; sourceTree = "<group>"; };
+		ED49B694210EFAC100D5D225 /* HitTestSuperView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HitTestSuperView.m; sourceTree = "<group>"; };
+		ED9D6DF821919BF00037A2A4 /* PropertyVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PropertyVC.h; sourceTree = "<group>"; };
+		ED9D6DF921919BF00037A2A4 /* PropertyVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PropertyVC.m; sourceTree = "<group>"; };
+		ED9D6DFB2191CE8C0037A2A4 /* PropertySubVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PropertySubVC.h; sourceTree = "<group>"; };
+		ED9D6DFC2191CE8C0037A2A4 /* PropertySubVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PropertySubVC.m; sourceTree = "<group>"; };
+		EDA60B0B21A7DC3B00D0C12C /* NSArrayVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSArrayVC.h; sourceTree = "<group>"; };
+		EDA60B0C21A7DC3B00D0C12C /* NSArrayVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSArrayVC.m; sourceTree = "<group>"; };
 		EDA99FCE20B13B3B009C4C64 /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDA99FD120B13B3B009C4C64 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EDA99FD220B13B3B009C4C64 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +107,24 @@
 		EDA99FF120B13B3D009C4C64 /* TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDA99FF520B13B3D009C4C64 /* TestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestUITests.m; sourceTree = "<group>"; };
 		EDA99FF720B13B3D009C4C64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDAE104221AAA61800B1B9B3 /* MemoryRefenceVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MemoryRefenceVC.h; sourceTree = "<group>"; };
+		EDAE104321AAA61800B1B9B3 /* MemoryRefenceVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemoryRefenceVC.m; sourceTree = "<group>"; };
+		EDAE108321AAB18100B1B9B3 /* MemoryObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MemoryObject.h; sourceTree = "<group>"; };
+		EDAE108421AAB18200B1B9B3 /* MemoryObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemoryObject.m; sourceTree = "<group>"; };
+		EDAE108621AADE4A00B1B9B3 /* ARCRefreceVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARCRefreceVC.h; sourceTree = "<group>"; };
+		EDAE108721AADE4A00B1B9B3 /* ARCRefreceVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARCRefreceVC.m; sourceTree = "<group>"; };
+		EDBFA012214228DF0068F2A5 /* ViewController+HockMethod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ViewController+HockMethod.h"; sourceTree = "<group>"; };
+		EDBFA013214228DF0068F2A5 /* ViewController+HockMethod.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ViewController+HockMethod.m"; sourceTree = "<group>"; };
+		EDD6662221C242A30080939F /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		EDD6662321C242A30080939F /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		EDE54F22219ABBC200248AA6 /* ObjectVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectVC.h; sourceTree = "<group>"; };
+		EDE54F23219ABBC200248AA6 /* ObjectVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectVC.m; sourceTree = "<group>"; };
+		EDE54F25219ABBEB00248AA6 /* MessageInvokeObj.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageInvokeObj.h; sourceTree = "<group>"; };
+		EDE54F26219ABBEB00248AA6 /* MessageInvokeObj.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageInvokeObj.m; sourceTree = "<group>"; };
+		EDE54F28219AC7B200248AA6 /* InvokeMethodObj.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InvokeMethodObj.h; sourceTree = "<group>"; };
+		EDE54F29219AC7B200248AA6 /* InvokeMethodObj.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InvokeMethodObj.m; sourceTree = "<group>"; };
+		EDE54F2B219D821800248AA6 /* ClickButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClickButton.h; sourceTree = "<group>"; };
+		EDE54F2C219D821800248AA6 /* ClickButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClickButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +152,68 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ED0E61BD20FDC02F00D5C0A3 /* RunloopMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				ED0E61C620FDD73A00D5C0A3 /* PerformanceMonitor.h */,
+				ED0E61C720FDD73B00D5C0A3 /* PerformanceMonitor.m */,
+				ED0E61C420FDC1E500D5C0A3 /* test.jpeg */,
+				ED0E61BE20FDC05B00D5C0A3 /* RunLoopMonitor.h */,
+				ED0E61BF20FDC05B00D5C0A3 /* RunLoopMonitor.m */,
+				ED0E61C120FDC09C00D5C0A3 /* TestMonitorVC.h */,
+				ED0E61C220FDC09C00D5C0A3 /* TestMonitorVC.m */,
+			);
+			path = RunloopMonitor;
+			sourceTree = "<group>";
+		};
+		ED30B69421C694A8000E0429 /* Hook */ = {
+			isa = PBXGroup;
+			children = (
+				EDBFA012214228DF0068F2A5 /* ViewController+HockMethod.h */,
+				EDBFA013214228DF0068F2A5 /* ViewController+HockMethod.m */,
+				ED30B69521C694FB000E0429 /* HookTestVC.h */,
+				ED30B69621C694FB000E0429 /* HookTestVC.m */,
+				ED30B69821C69518000E0429 /* HookTestVC+OneHookMethod.h */,
+				ED30B69921C69518000E0429 /* HookTestVC+OneHookMethod.m */,
+				ED30B69B21C69524000E0429 /* HookTestVC+TwoHookMethod.h */,
+				ED30B69C21C69524000E0429 /* HookTestVC+TwoHookMethod.m */,
+			);
+			path = Hook;
+			sourceTree = "<group>";
+		};
+		ED30B69F21C69621000E0429 /* Property */ = {
+			isa = PBXGroup;
+			children = (
+				ED9D6DF821919BF00037A2A4 /* PropertyVC.h */,
+				ED9D6DF921919BF00037A2A4 /* PropertyVC.m */,
+				ED9D6DFB2191CE8C0037A2A4 /* PropertySubVC.h */,
+				ED9D6DFC2191CE8C0037A2A4 /* PropertySubVC.m */,
+			);
+			path = Property;
+			sourceTree = "<group>";
+		};
+		ED49B68C210EF16300D5D225 /* Hit - Test */ = {
+			isa = PBXGroup;
+			children = (
+				ED49B68D210EF24400D5D225 /* HitTestViewController.h */,
+				ED49B68E210EF24400D5D225 /* HitTestViewController.m */,
+				ED49B690210EF29D00D5D225 /* HitTestButton.h */,
+				ED49B691210EF29D00D5D225 /* HitTestButton.m */,
+				ED49B693210EFAC100D5D225 /* HitTestSuperView.h */,
+				ED49B694210EFAC100D5D225 /* HitTestSuperView.m */,
+			);
+			path = "Hit - Test";
+			sourceTree = "<group>";
+		};
+		EDA60B0A21A7DC2200D0C12C /* NSArray */ = {
+			isa = PBXGroup;
+			children = (
+				EDA60B0B21A7DC3B00D0C12C /* NSArrayVC.h */,
+				EDA60B0C21A7DC3B00D0C12C /* NSArrayVC.m */,
+			);
+			path = NSArray;
+			sourceTree = "<group>";
+		};
 		EDA99FC520B13B3B009C4C64 = {
 			isa = PBXGroup;
 			children = (
@@ -101,10 +237,22 @@
 		EDA99FD020B13B3B009C4C64 /* Test */ = {
 			isa = PBXGroup;
 			children = (
+				ED30B69F21C69621000E0429 /* Property */,
+				ED30B69421C694A8000E0429 /* Hook */,
+				EDD6662121C242850080939F /* UIView */,
+				EDAE104121AAA5F100B1B9B3 /* MemoryRefence */,
+				EDA60B0A21A7DC2200D0C12C /* NSArray */,
+				EDE54F21219ABBC200248AA6 /* Object */,
+				ED49B68C210EF16300D5D225 /* Hit - Test */,
+				ED0E61BD20FDC02F00D5C0A3 /* RunloopMonitor */,
 				EDA99FD120B13B3B009C4C64 /* AppDelegate.h */,
 				EDA99FD220B13B3B009C4C64 /* AppDelegate.m */,
 				EDA99FD420B13B3B009C4C64 /* ViewController.h */,
 				EDA99FD520B13B3B009C4C64 /* ViewController.m */,
+				ED345C5620E7A3E60082CB50 /* AObj.h */,
+				ED345C5720E7A3E60082CB50 /* AObj.m */,
+				ED345C5920E7A3F10082CB50 /* BObj.h */,
+				ED345C5A20E7A3F10082CB50 /* BObj.m */,
 				EDA99FD720B13B3C009C4C64 /* Main.storyboard */,
 				EDA99FDA20B13B3C009C4C64 /* Assets.xcassets */,
 				EDA99FDC20B13B3C009C4C64 /* LaunchScreen.storyboard */,
@@ -130,6 +278,45 @@
 				EDA99FF720B13B3D009C4C64 /* Info.plist */,
 			);
 			path = TestUITests;
+			sourceTree = "<group>";
+		};
+		EDAE104121AAA5F100B1B9B3 /* MemoryRefence */ = {
+			isa = PBXGroup;
+			children = (
+				EDE54F2B219D821800248AA6 /* ClickButton.h */,
+				EDE54F2C219D821800248AA6 /* ClickButton.m */,
+				EDAE104221AAA61800B1B9B3 /* MemoryRefenceVC.h */,
+				EDAE104321AAA61800B1B9B3 /* MemoryRefenceVC.m */,
+				EDAE108321AAB18100B1B9B3 /* MemoryObject.h */,
+				EDAE108421AAB18200B1B9B3 /* MemoryObject.m */,
+				EDAE108621AADE4A00B1B9B3 /* ARCRefreceVC.h */,
+				EDAE108721AADE4A00B1B9B3 /* ARCRefreceVC.m */,
+				ED2C9CC721B7B4C600D1DB94 /* ArcRefennceObj.h */,
+				ED2C9CC821B7B4C600D1DB94 /* ArcRefennceObj.m */,
+			);
+			path = MemoryRefence;
+			sourceTree = "<group>";
+		};
+		EDD6662121C242850080939F /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				EDD6662221C242A30080939F /* TestViewController.h */,
+				EDD6662321C242A30080939F /* TestViewController.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		EDE54F21219ABBC200248AA6 /* Object */ = {
+			isa = PBXGroup;
+			children = (
+				EDE54F22219ABBC200248AA6 /* ObjectVC.h */,
+				EDE54F23219ABBC200248AA6 /* ObjectVC.m */,
+				EDE54F25219ABBEB00248AA6 /* MessageInvokeObj.h */,
+				EDE54F26219ABBEB00248AA6 /* MessageInvokeObj.m */,
+				EDE54F28219AC7B200248AA6 /* InvokeMethodObj.h */,
+				EDE54F29219AC7B200248AA6 /* InvokeMethodObj.m */,
+			);
+			path = Object;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,6 +428,7 @@
 				EDA99FDE20B13B3C009C4C64 /* LaunchScreen.storyboard in Resources */,
 				EDA99FDB20B13B3C009C4C64 /* Assets.xcassets in Resources */,
 				EDA99FD920B13B3C009C4C64 /* Main.storyboard in Resources */,
+				ED0E61C520FDC1E500D5C0A3 /* test.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,9 +453,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDE54F2A219AC7B200248AA6 /* InvokeMethodObj.m in Sources */,
+				ED49B68F210EF24400D5D225 /* HitTestViewController.m in Sources */,
+				EDE54F2D219D821800248AA6 /* ClickButton.m in Sources */,
+				ED49B695210EFAC100D5D225 /* HitTestSuperView.m in Sources */,
+				ED30B69A21C69518000E0429 /* HookTestVC+OneHookMethod.m in Sources */,
+				EDBFA014214228DF0068F2A5 /* ViewController+HockMethod.m in Sources */,
+				ED345C5B20E7A3F10082CB50 /* BObj.m in Sources */,
+				EDD6662421C242A30080939F /* TestViewController.m in Sources */,
+				ED9D6DFD2191CE8C0037A2A4 /* PropertySubVC.m in Sources */,
+				ED0E61C820FDD73B00D5C0A3 /* PerformanceMonitor.m in Sources */,
 				EDA99FD620B13B3B009C4C64 /* ViewController.m in Sources */,
+				ED30B69721C694FB000E0429 /* HookTestVC.m in Sources */,
+				EDA60B0D21A7DC3B00D0C12C /* NSArrayVC.m in Sources */,
+				ED0E61C020FDC05B00D5C0A3 /* RunLoopMonitor.m in Sources */,
+				EDE54F24219ABBC200248AA6 /* ObjectVC.m in Sources */,
+				EDAE108821AADE4A00B1B9B3 /* ARCRefreceVC.m in Sources */,
+				EDE54F27219ABBEB00248AA6 /* MessageInvokeObj.m in Sources */,
+				ED0E61C320FDC09C00D5C0A3 /* TestMonitorVC.m in Sources */,
+				EDAE108521AAB18200B1B9B3 /* MemoryObject.m in Sources */,
+				EDAE104421AAA61800B1B9B3 /* MemoryRefenceVC.m in Sources */,
+				ED9D6DFA21919BF00037A2A4 /* PropertyVC.m in Sources */,
+				ED2C9CC921B7B4C600D1DB94 /* ArcRefennceObj.m in Sources */,
+				ED345C5820E7A3E60082CB50 /* AObj.m in Sources */,
 				EDA99FE120B13B3C009C4C64 /* main.m in Sources */,
 				EDA99FD320B13B3B009C4C64 /* AppDelegate.m in Sources */,
+				ED30B69D21C69524000E0429 /* HookTestVC+TwoHookMethod.m in Sources */,
+				ED49B692210EF29D00D5D225 /* HitTestButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,8 +645,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BR9NK93Y23;
 				INFOPLIST_FILE = Test/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ZHANGZHONGYANG.Test;
+				PRODUCT_BUNDLE_IDENTIFIER = zhangzhongyang123;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -447,8 +660,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BR9NK93Y23;
 				INFOPLIST_FILE = Test/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ZHANGZHONGYANG.Test;
+				PRODUCT_BUNDLE_IDENTIFIER = zhangzhongyang123;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
