@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+void SCC_HockInstanceMethod (Class _Nullable class, SEL _Nonnull orginSelector, SEL _Nonnull swizzledSelector);
+
 @interface HookTestVC : UIViewController
 
 @end

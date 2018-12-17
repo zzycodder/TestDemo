@@ -11,6 +11,12 @@
 		ED0E61C320FDC09C00D5C0A3 /* TestMonitorVC.m in Sources */ = {isa = PBXBuildFile; fileRef = ED0E61C220FDC09C00D5C0A3 /* TestMonitorVC.m */; };
 		ED0E61C520FDC1E500D5C0A3 /* test.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ED0E61C420FDC1E500D5C0A3 /* test.jpeg */; };
 		ED0E61C820FDD73B00D5C0A3 /* PerformanceMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = ED0E61C720FDD73B00D5C0A3 /* PerformanceMonitor.m */; };
+		ED1F815021C74BBB006CBDAA /* HookTestVC+CoverMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1F814F21C74BBB006CBDAA /* HookTestVC+CoverMethod.m */; };
+		ED1F815321C74C53006CBDAA /* HookTestVC+Covered2Method.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1F815221C74C53006CBDAA /* HookTestVC+Covered2Method.m */; };
+		ED1F815621C78A74006CBDAA /* HookTestSubVC.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1F815521C78A74006CBDAA /* HookTestSubVC.m */; };
+		ED1F815921C78B3E006CBDAA /* HookTestSubVC+OneHookMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1F815821C78B3E006CBDAA /* HookTestSubVC+OneHookMethod.m */; };
+		ED1F815C21C79D6B006CBDAA /* NSMutableArray+hookAddMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1F815B21C79D6B006CBDAA /* NSMutableArray+hookAddMethod.m */; };
+		ED1F815F21C7A2D6006CBDAA /* HookNSMutableArray.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1F815E21C7A2D6006CBDAA /* HookNSMutableArray.m */; };
 		ED2C9CC921B7B4C600D1DB94 /* ArcRefennceObj.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2C9CC821B7B4C600D1DB94 /* ArcRefennceObj.m */; };
 		ED30B69721C694FB000E0429 /* HookTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = ED30B69621C694FB000E0429 /* HookTestVC.m */; };
 		ED30B69A21C69518000E0429 /* HookTestVC+OneHookMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = ED30B69921C69518000E0429 /* HookTestVC+OneHookMethod.m */; };
@@ -34,7 +40,6 @@
 		EDAE104421AAA61800B1B9B3 /* MemoryRefenceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EDAE104321AAA61800B1B9B3 /* MemoryRefenceVC.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		EDAE108521AAB18200B1B9B3 /* MemoryObject.m in Sources */ = {isa = PBXBuildFile; fileRef = EDAE108421AAB18200B1B9B3 /* MemoryObject.m */; };
 		EDAE108821AADE4A00B1B9B3 /* ARCRefreceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EDAE108721AADE4A00B1B9B3 /* ARCRefreceVC.m */; };
-		EDBFA014214228DF0068F2A5 /* ViewController+HockMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = EDBFA013214228DF0068F2A5 /* ViewController+HockMethod.m */; };
 		EDD6662421C242A30080939F /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD6662321C242A30080939F /* TestViewController.m */; };
 		EDE54F24219ABBC200248AA6 /* ObjectVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE54F23219ABBC200248AA6 /* ObjectVC.m */; };
 		EDE54F27219ABBEB00248AA6 /* MessageInvokeObj.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE54F26219ABBEB00248AA6 /* MessageInvokeObj.m */; };
@@ -67,6 +72,18 @@
 		ED0E61C420FDC1E500D5C0A3 /* test.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test.jpeg; sourceTree = "<group>"; };
 		ED0E61C620FDD73A00D5C0A3 /* PerformanceMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PerformanceMonitor.h; sourceTree = "<group>"; };
 		ED0E61C720FDD73B00D5C0A3 /* PerformanceMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PerformanceMonitor.m; sourceTree = "<group>"; };
+		ED1F814E21C74BBB006CBDAA /* HookTestVC+CoverMethod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HookTestVC+CoverMethod.h"; sourceTree = "<group>"; };
+		ED1F814F21C74BBB006CBDAA /* HookTestVC+CoverMethod.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "HookTestVC+CoverMethod.m"; sourceTree = "<group>"; };
+		ED1F815121C74C53006CBDAA /* HookTestVC+Covered2Method.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HookTestVC+Covered2Method.h"; sourceTree = "<group>"; };
+		ED1F815221C74C53006CBDAA /* HookTestVC+Covered2Method.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "HookTestVC+Covered2Method.m"; sourceTree = "<group>"; };
+		ED1F815421C78A74006CBDAA /* HookTestSubVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HookTestSubVC.h; sourceTree = "<group>"; };
+		ED1F815521C78A74006CBDAA /* HookTestSubVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HookTestSubVC.m; sourceTree = "<group>"; };
+		ED1F815721C78B3E006CBDAA /* HookTestSubVC+OneHookMethod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HookTestSubVC+OneHookMethod.h"; sourceTree = "<group>"; };
+		ED1F815821C78B3E006CBDAA /* HookTestSubVC+OneHookMethod.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "HookTestSubVC+OneHookMethod.m"; sourceTree = "<group>"; };
+		ED1F815A21C79D6B006CBDAA /* NSMutableArray+hookAddMethod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+hookAddMethod.h"; sourceTree = "<group>"; };
+		ED1F815B21C79D6B006CBDAA /* NSMutableArray+hookAddMethod.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+hookAddMethod.m"; sourceTree = "<group>"; };
+		ED1F815D21C7A2D6006CBDAA /* HookNSMutableArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HookNSMutableArray.h; sourceTree = "<group>"; };
+		ED1F815E21C7A2D6006CBDAA /* HookNSMutableArray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HookNSMutableArray.m; sourceTree = "<group>"; };
 		ED2C9CC721B7B4C600D1DB94 /* ArcRefennceObj.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArcRefennceObj.h; sourceTree = "<group>"; };
 		ED2C9CC821B7B4C600D1DB94 /* ArcRefennceObj.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArcRefennceObj.m; sourceTree = "<group>"; };
 		ED30B69521C694FB000E0429 /* HookTestVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HookTestVC.h; sourceTree = "<group>"; };
@@ -113,8 +130,6 @@
 		EDAE108421AAB18200B1B9B3 /* MemoryObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemoryObject.m; sourceTree = "<group>"; };
 		EDAE108621AADE4A00B1B9B3 /* ARCRefreceVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARCRefreceVC.h; sourceTree = "<group>"; };
 		EDAE108721AADE4A00B1B9B3 /* ARCRefreceVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARCRefreceVC.m; sourceTree = "<group>"; };
-		EDBFA012214228DF0068F2A5 /* ViewController+HockMethod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ViewController+HockMethod.h"; sourceTree = "<group>"; };
-		EDBFA013214228DF0068F2A5 /* ViewController+HockMethod.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ViewController+HockMethod.m"; sourceTree = "<group>"; };
 		EDD6662221C242A30080939F /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
 		EDD6662321C242A30080939F /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 		EDE54F22219ABBC200248AA6 /* ObjectVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectVC.h; sourceTree = "<group>"; };
@@ -169,14 +184,24 @@
 		ED30B69421C694A8000E0429 /* Hook */ = {
 			isa = PBXGroup;
 			children = (
-				EDBFA012214228DF0068F2A5 /* ViewController+HockMethod.h */,
-				EDBFA013214228DF0068F2A5 /* ViewController+HockMethod.m */,
 				ED30B69521C694FB000E0429 /* HookTestVC.h */,
 				ED30B69621C694FB000E0429 /* HookTestVC.m */,
 				ED30B69821C69518000E0429 /* HookTestVC+OneHookMethod.h */,
 				ED30B69921C69518000E0429 /* HookTestVC+OneHookMethod.m */,
 				ED30B69B21C69524000E0429 /* HookTestVC+TwoHookMethod.h */,
 				ED30B69C21C69524000E0429 /* HookTestVC+TwoHookMethod.m */,
+				ED1F814E21C74BBB006CBDAA /* HookTestVC+CoverMethod.h */,
+				ED1F814F21C74BBB006CBDAA /* HookTestVC+CoverMethod.m */,
+				ED1F815121C74C53006CBDAA /* HookTestVC+Covered2Method.h */,
+				ED1F815221C74C53006CBDAA /* HookTestVC+Covered2Method.m */,
+				ED1F815421C78A74006CBDAA /* HookTestSubVC.h */,
+				ED1F815521C78A74006CBDAA /* HookTestSubVC.m */,
+				ED1F815721C78B3E006CBDAA /* HookTestSubVC+OneHookMethod.h */,
+				ED1F815821C78B3E006CBDAA /* HookTestSubVC+OneHookMethod.m */,
+				ED1F815A21C79D6B006CBDAA /* NSMutableArray+hookAddMethod.h */,
+				ED1F815B21C79D6B006CBDAA /* NSMutableArray+hookAddMethod.m */,
+				ED1F815D21C7A2D6006CBDAA /* HookNSMutableArray.h */,
+				ED1F815E21C7A2D6006CBDAA /* HookNSMutableArray.m */,
 			);
 			path = Hook;
 			sourceTree = "<group>";
@@ -457,15 +482,18 @@
 				ED49B68F210EF24400D5D225 /* HitTestViewController.m in Sources */,
 				EDE54F2D219D821800248AA6 /* ClickButton.m in Sources */,
 				ED49B695210EFAC100D5D225 /* HitTestSuperView.m in Sources */,
+				ED1F815021C74BBB006CBDAA /* HookTestVC+CoverMethod.m in Sources */,
 				ED30B69A21C69518000E0429 /* HookTestVC+OneHookMethod.m in Sources */,
-				EDBFA014214228DF0068F2A5 /* ViewController+HockMethod.m in Sources */,
 				ED345C5B20E7A3F10082CB50 /* BObj.m in Sources */,
+				ED1F815321C74C53006CBDAA /* HookTestVC+Covered2Method.m in Sources */,
 				EDD6662421C242A30080939F /* TestViewController.m in Sources */,
 				ED9D6DFD2191CE8C0037A2A4 /* PropertySubVC.m in Sources */,
+				ED1F815F21C7A2D6006CBDAA /* HookNSMutableArray.m in Sources */,
 				ED0E61C820FDD73B00D5C0A3 /* PerformanceMonitor.m in Sources */,
 				EDA99FD620B13B3B009C4C64 /* ViewController.m in Sources */,
 				ED30B69721C694FB000E0429 /* HookTestVC.m in Sources */,
 				EDA60B0D21A7DC3B00D0C12C /* NSArrayVC.m in Sources */,
+				ED1F815621C78A74006CBDAA /* HookTestSubVC.m in Sources */,
 				ED0E61C020FDC05B00D5C0A3 /* RunLoopMonitor.m in Sources */,
 				EDE54F24219ABBC200248AA6 /* ObjectVC.m in Sources */,
 				EDAE108821AADE4A00B1B9B3 /* ARCRefreceVC.m in Sources */,
@@ -479,6 +507,8 @@
 				EDA99FE120B13B3C009C4C64 /* main.m in Sources */,
 				EDA99FD320B13B3B009C4C64 /* AppDelegate.m in Sources */,
 				ED30B69D21C69524000E0429 /* HookTestVC+TwoHookMethod.m in Sources */,
+				ED1F815921C78B3E006CBDAA /* HookTestSubVC+OneHookMethod.m in Sources */,
+				ED1F815C21C79D6B006CBDAA /* NSMutableArray+hookAddMethod.m in Sources */,
 				ED49B692210EF29D00D5D225 /* HitTestButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
