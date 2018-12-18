@@ -18,6 +18,7 @@
 #import "ARCRefreceVC.h"
 #import "TestViewController.h"
 #import "HookTestVC.h"
+#import "BlockVC.h"
 
 @interface AppDelegate ()
 
@@ -31,7 +32,7 @@
 //    [[RunLoopMonitor shareInstance] startMonitor];
 
 //    [[PerformanceMonitor sharedInstance] start];
-    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[HookTestVC new]];
+    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[BlockVC new]];
     self.window.frame = [UIScreen mainScreen].bounds;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
