@@ -46,12 +46,21 @@ int mainBlock() {
 }
 */
 
-int blockMain() {
+static int a = 1;
+int b = 2;
+
+void blockMain() {
+    
+    static int c = 3;
+    int d = 4;
     
     void(^MyBlock)(void) =  ^{
-            printf("block test");
-        };
+        a = 100;
+        b = 100;
+        c = 100;
+        int e = a + b + c + d;
+        printf("%d", e);
+    };
     MyBlock();
-
-    return 0;
+    
 }

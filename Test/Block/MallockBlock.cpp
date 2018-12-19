@@ -106,7 +106,14 @@ struct __AtAutoreleasePool {
 };
 
 #define __OFFSETOFIVAR__(TYPE, MEMBER) ((long long) &((TYPE *)0)->MEMBER)
-static __NSConstantStringImpl __NSConstantStringImpl__var_folders__s_s_d05ccd4qv0y698mt2mcqp80000gn_T_Block_69a19e_mi_0 __attribute__ ((section ("__DATA, __cfstring"))) = {__CFConstantStringClassReference,0x000007c8,"obj = %@",8};
+static void __Block_byref_id_object_copy_131(void *dst, void *src) {
+ _Block_object_assign((char*)dst + 40, *(void * *) ((char*)src + 40), 131);
+}
+static void __Block_byref_id_object_dispose_131(void *src) {
+ _Block_object_dispose(*(void * *) ((char*)src + 40), 131);
+}
+static __NSConstantStringImpl __NSConstantStringImpl__var_folders__s_s_d05ccd4qv0y698mt2mcqp80000gn_T_MallockBlock_6870fa_mi_0 __attribute__ ((section ("__DATA, __cfstring"))) = {__CFConstantStringClassReference,0x000007c8,"%@",2};
+static __NSConstantStringImpl __NSConstantStringImpl__var_folders__s_s_d05ccd4qv0y698mt2mcqp80000gn_T_MallockBlock_6870fa_mi_1 __attribute__ ((section ("__DATA, __cfstring"))) = {__CFConstantStringClassReference,0x000007c8,"%d",2};
 
 
 
@@ -95572,13 +95579,13 @@ struct NSXPCListenerEndpoint_IMPL {
 
 
 
-#ifndef _REWRITER_typedef_Block
-#define _REWRITER_typedef_Block
-typedef struct objc_object Block;
-typedef struct {} _objc_exc_Block;
+#ifndef _REWRITER_typedef_MallockBlock
+#define _REWRITER_typedef_MallockBlock
+typedef struct objc_object MallockBlock;
+typedef struct {} _objc_exc_MallockBlock;
 #endif
 
-struct Block_IMPL {
+struct MallockBlock_IMPL {
 	struct NSObject_IMPL NSObject_IVARS;
 };
 
@@ -95586,14 +95593,23 @@ struct Block_IMPL {
 /* @end */
 
 
-// @implementation Block
+// @implementation MallockBlock
 
+struct __Block_byref_obj1_0 {
+  void *__isa;
+__Block_byref_obj1_0 *__forwarding;
+ int __flags;
+ int __size;
+ void (*__Block_byref_id_object_copy)(void*, void*);
+ void (*__Block_byref_id_object_dispose)(void*);
+ NSObject *obj1;
+};
 
 struct __blockMain_block_impl_0 {
   struct __block_impl impl;
   struct __blockMain_block_desc_0* Desc;
-  NSObject *obj;
-  __blockMain_block_impl_0(void *fp, struct __blockMain_block_desc_0 *desc, NSObject *_obj, int flags=0) : obj(_obj) {
+  __Block_byref_obj1_0 *obj1; // by ref
+  __blockMain_block_impl_0(void *fp, struct __blockMain_block_desc_0 *desc, __Block_byref_obj1_0 *_obj1, int flags=0) : obj1(_obj1->__forwarding) {
     impl.isa = &_NSConcreteStackBlock;
     impl.Flags = flags;
     impl.FuncPtr = fp;
@@ -95601,13 +95617,15 @@ struct __blockMain_block_impl_0 {
   }
 };
 static void __blockMain_block_func_0(struct __blockMain_block_impl_0 *__cself) {
-  NSObject *obj = __cself->obj; // bound by copy
+  __Block_byref_obj1_0 *obj1 = __cself->obj1; // bound by ref
 
-        NSLog((NSString *)&__NSConstantStringImpl__var_folders__s_s_d05ccd4qv0y698mt2mcqp80000gn_T_Block_69a19e_mi_0, obj);
+        (obj1->__forwarding->obj1) = ((NSObject *(*)(id, SEL))(void *)objc_msgSend)((id)((NSObject *(*)(id, SEL))(void *)objc_msgSend)((id)objc_getClass("NSObject"), sel_registerName("alloc")), sel_registerName("init"));
+        NSLog((NSString *)&__NSConstantStringImpl__var_folders__s_s_d05ccd4qv0y698mt2mcqp80000gn_T_MallockBlock_6870fa_mi_0, (obj1->__forwarding->obj1));
     }
-static void __blockMain_block_copy_0(struct __blockMain_block_impl_0*dst, struct __blockMain_block_impl_0*src) {_Block_object_assign((void*)&dst->obj, (void*)src->obj, 3/*BLOCK_FIELD_IS_OBJECT*/);}
 
-static void __blockMain_block_dispose_0(struct __blockMain_block_impl_0*src) {_Block_object_dispose((void*)src->obj, 3/*BLOCK_FIELD_IS_OBJECT*/);}
+static void __blockMain_block_copy_0(struct __blockMain_block_impl_0*dst, struct __blockMain_block_impl_0*src) {_Block_object_assign((void*)&dst->obj1, (void*)src->obj1, 8/*BLOCK_FIELD_IS_BYREF*/);}
+
+static void __blockMain_block_dispose_0(struct __blockMain_block_impl_0*src) {_Block_object_dispose((void*)src->obj1, 8/*BLOCK_FIELD_IS_BYREF*/);}
 
 static struct __blockMain_block_desc_0 {
   size_t reserved;
@@ -95615,13 +95633,41 @@ static struct __blockMain_block_desc_0 {
   void (*copy)(struct __blockMain_block_impl_0*, struct __blockMain_block_impl_0*);
   void (*dispose)(struct __blockMain_block_impl_0*);
 } __blockMain_block_desc_0_DATA = { 0, sizeof(struct __blockMain_block_impl_0), __blockMain_block_copy_0, __blockMain_block_dispose_0};
+
+struct __blockMain_block_impl_1 {
+  struct __block_impl impl;
+  struct __blockMain_block_desc_1* Desc;
+  __blockMain_block_impl_1(void *fp, struct __blockMain_block_desc_1 *desc, int flags=0) {
+    impl.isa = &_NSConcreteStackBlock;
+    impl.Flags = flags;
+    impl.FuncPtr = fp;
+    Desc = desc;
+  }
+};
+static void __blockMain_block_func_1(struct __blockMain_block_impl_1 *__cself, int a) {
+
+        NSLog((NSString *)&__NSConstantStringImpl__var_folders__s_s_d05ccd4qv0y698mt2mcqp80000gn_T_MallockBlock_6870fa_mi_1, a);
+    }
+
+static struct __blockMain_block_desc_1 {
+  size_t reserved;
+  size_t Block_size;
+} __blockMain_block_desc_1_DATA = { 0, sizeof(struct __blockMain_block_impl_1)};
 void blockMain() {
 
     NSObject *obj = ((NSObject *(*)(id, SEL))(void *)objc_msgSend)((id)objc_getClass("NSObject"), sel_registerName("new"));
-    void(*MyBlock)(void) = ((void (*)())&__blockMain_block_impl_0((void *)__blockMain_block_func_0, &__blockMain_block_desc_0_DATA, obj, 570425344));
-    ((void (*)(__block_impl *))((__block_impl *)MyBlock)->FuncPtr)((__block_impl *)MyBlock);
+    __attribute__((__blocks__(byref))) __Block_byref_obj1_0 obj1 = {(void*)0,(__Block_byref_obj1_0 *)&obj1, 33554432, sizeof(__Block_byref_obj1_0), __Block_byref_id_object_copy_131, __Block_byref_id_object_dispose_131, obj};
 
+    void(*MyBlock)(void) = ((void (*)())&__blockMain_block_impl_0((void *)__blockMain_block_func_0, &__blockMain_block_desc_0_DATA, (__Block_byref_obj1_0 *)&obj1, 570425344));
+
+    void(*Block)(int a) = ((void (*)(int))&__blockMain_block_impl_1((void *)__blockMain_block_func_1, &__blockMain_block_desc_1_DATA));
+
+    void(*copyBlock)(void) = (void (*)())((id (*)(id, SEL))(void *)objc_msgSend)((id)MyBlock, sel_registerName("copy"));
+
+    ((void (*)(__block_impl *))((__block_impl *)copyBlock)->FuncPtr)((__block_impl *)copyBlock);
+    ((void (*)(__block_impl *, int))((__block_impl *)Block)->FuncPtr)((__block_impl *)Block, 1);
 }
+
 
 // @end
 
@@ -95693,11 +95739,11 @@ struct _category_t {
 extern "C" __declspec(dllimport) struct objc_cache _objc_empty_cache;
 #pragma warning(disable:4273)
 
-static struct _class_ro_t _OBJC_METACLASS_RO_$_Block __attribute__ ((used, section ("__DATA,__objc_const"))) = {
+static struct _class_ro_t _OBJC_METACLASS_RO_$_MallockBlock __attribute__ ((used, section ("__DATA,__objc_const"))) = {
 	1, sizeof(struct _class_t), sizeof(struct _class_t), 
 	(unsigned int)0, 
 	0, 
-	"Block",
+	"MallockBlock",
 	0, 
 	0, 
 	0, 
@@ -95705,11 +95751,11 @@ static struct _class_ro_t _OBJC_METACLASS_RO_$_Block __attribute__ ((used, secti
 	0, 
 };
 
-static struct _class_ro_t _OBJC_CLASS_RO_$_Block __attribute__ ((used, section ("__DATA,__objc_const"))) = {
-	0, sizeof(struct Block_IMPL), sizeof(struct Block_IMPL), 
+static struct _class_ro_t _OBJC_CLASS_RO_$_MallockBlock __attribute__ ((used, section ("__DATA,__objc_const"))) = {
+	0, sizeof(struct MallockBlock_IMPL), sizeof(struct MallockBlock_IMPL), 
 	(unsigned int)0, 
 	0, 
-	"Block",
+	"MallockBlock",
 	0, 
 	0, 
 	0, 
@@ -95719,36 +95765,36 @@ static struct _class_ro_t _OBJC_CLASS_RO_$_Block __attribute__ ((used, section (
 
 extern "C" __declspec(dllimport) struct _class_t OBJC_METACLASS_$_NSObject;
 
-extern "C" __declspec(dllexport) struct _class_t OBJC_METACLASS_$_Block __attribute__ ((used, section ("__DATA,__objc_data"))) = {
+extern "C" __declspec(dllexport) struct _class_t OBJC_METACLASS_$_MallockBlock __attribute__ ((used, section ("__DATA,__objc_data"))) = {
 	0, // &OBJC_METACLASS_$_NSObject,
 	0, // &OBJC_METACLASS_$_NSObject,
 	0, // (void *)&_objc_empty_cache,
 	0, // unused, was (void *)&_objc_empty_vtable,
-	&_OBJC_METACLASS_RO_$_Block,
+	&_OBJC_METACLASS_RO_$_MallockBlock,
 };
 
 extern "C" __declspec(dllimport) struct _class_t OBJC_CLASS_$_NSObject;
 
-extern "C" __declspec(dllexport) struct _class_t OBJC_CLASS_$_Block __attribute__ ((used, section ("__DATA,__objc_data"))) = {
-	0, // &OBJC_METACLASS_$_Block,
+extern "C" __declspec(dllexport) struct _class_t OBJC_CLASS_$_MallockBlock __attribute__ ((used, section ("__DATA,__objc_data"))) = {
+	0, // &OBJC_METACLASS_$_MallockBlock,
 	0, // &OBJC_CLASS_$_NSObject,
 	0, // (void *)&_objc_empty_cache,
 	0, // unused, was (void *)&_objc_empty_vtable,
-	&_OBJC_CLASS_RO_$_Block,
+	&_OBJC_CLASS_RO_$_MallockBlock,
 };
-static void OBJC_CLASS_SETUP_$_Block(void ) {
-	OBJC_METACLASS_$_Block.isa = &OBJC_METACLASS_$_NSObject;
-	OBJC_METACLASS_$_Block.superclass = &OBJC_METACLASS_$_NSObject;
-	OBJC_METACLASS_$_Block.cache = &_objc_empty_cache;
-	OBJC_CLASS_$_Block.isa = &OBJC_METACLASS_$_Block;
-	OBJC_CLASS_$_Block.superclass = &OBJC_CLASS_$_NSObject;
-	OBJC_CLASS_$_Block.cache = &_objc_empty_cache;
+static void OBJC_CLASS_SETUP_$_MallockBlock(void ) {
+	OBJC_METACLASS_$_MallockBlock.isa = &OBJC_METACLASS_$_NSObject;
+	OBJC_METACLASS_$_MallockBlock.superclass = &OBJC_METACLASS_$_NSObject;
+	OBJC_METACLASS_$_MallockBlock.cache = &_objc_empty_cache;
+	OBJC_CLASS_$_MallockBlock.isa = &OBJC_METACLASS_$_MallockBlock;
+	OBJC_CLASS_$_MallockBlock.superclass = &OBJC_CLASS_$_NSObject;
+	OBJC_CLASS_$_MallockBlock.cache = &_objc_empty_cache;
 }
 #pragma section(".objc_inithooks$B", long, read, write)
 __declspec(allocate(".objc_inithooks$B")) static void *OBJC_CLASS_SETUP[] = {
-	(void *)&OBJC_CLASS_SETUP_$_Block,
+	(void *)&OBJC_CLASS_SETUP_$_MallockBlock,
 };
 static struct _class_t *L_OBJC_LABEL_CLASS_$ [1] __attribute__((used, section ("__DATA, __objc_classlist,regular,no_dead_strip")))= {
-	&OBJC_CLASS_$_Block,
+	&OBJC_CLASS_$_MallockBlock,
 };
 static struct IMAGE_INFO { unsigned version; unsigned flag; } _OBJC_IMAGE_INFO = { 0, 2 };

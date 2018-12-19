@@ -8,7 +8,7 @@
 
 #include <stdio.h>
 
-int StackBlockMain() {
+void StackBlockMain() {
     
     __block int a = 10;
     float c = 2.f;
@@ -20,6 +20,5 @@ int StackBlockMain() {
     
     StackBlock(3);
     
-    return 0;
 }
 
