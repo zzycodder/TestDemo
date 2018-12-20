@@ -8,6 +8,7 @@
 
 #include <stdio.h>
 
+/**
 void StackBlockMain() {
     
     __block int a = 10;
@@ -22,3 +23,4 @@ void StackBlockMain() {
     
 }
 
+*/

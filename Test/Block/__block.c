@@ -8,6 +8,7 @@
 
 #include <stdio.h>
 
+/**
 void blockMain() {
     
     __block int a = 1;
@@ -22,3 +23,4 @@ void blockMain() {
     
 }
 
+*/

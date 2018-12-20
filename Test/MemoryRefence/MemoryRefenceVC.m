@@ -11,6 +11,7 @@
 #import "MemoryObject.h"
 
 @interface MemoryRefenceVC ()
+
 @property (nonatomic, copy) NSArray *array1;
 @property (nonatomic, copy) NSArray *array2;
 @property (nonatomic, strong) NSObject *object1;
