@@ -11,7 +11,7 @@
 
 @implementation HookNSMutableArray
 
-
+/**
 + (void)load {
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
@@ -45,5 +45,6 @@
     NSLog(@"hook object = %@", object);
 }
 
+*/
 
 @end
