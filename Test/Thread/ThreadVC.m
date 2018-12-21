@@ -29,9 +29,6 @@
 
     UIButton *gcdButton = [self buttonWithFrame:CGRectMake(150, 450, 100, 100) title:@"GCD" target:self action:@selector(pushToGCDVC)];
     [self.view addSubview:gcdButton];
-
-    NSString *homeDir = NSHomeDirectory();
-    NSLog(@"homeDir = %@", homeDir);
 }
 
 #pragma mark - Action
