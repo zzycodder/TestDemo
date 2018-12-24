@@ -23,6 +23,7 @@
     UIButton *button2 = [UIButton buttonWithFrame:CGRectMake(100, 300, 150, 100) title:@"invocationOperation" target:self action:@selector(invocationOperationAction)];
 
     [self.view addSubview:button1];
+    [self.view addSubview:button2];
 }
 
 - (void)blockOperationThread {
