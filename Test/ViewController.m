@@ -76,7 +76,6 @@ int global;
     
 //    aObj.name = @"zzy";
 //    NSLog(@"/////AObj.size = %zd", class_getInstanceSize(aObj.class));
-
     
     ClickButton *button = [ClickButton buttonWithType:UIButtonTypeSystem];
     button.frame = CGRectMake(150, 150, 100, 100);

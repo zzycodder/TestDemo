@@ -7,6 +7,7 @@
 //
 
 #import "TestViewController.h"
+#import "CustomView.h"
 
 @interface TestViewController ()
 
@@ -19,7 +20,8 @@
     
     self.view.backgroundColor = [UIColor whiteColor];
     
-    [self shadowLayer];
+//    [self shadowLayer];
+    [self addFocusCustomView];
 }
 
 - (void)shadowLayer {
@@ -39,6 +41,22 @@
 //    [path closePath];
 //
 //    view.layer.shadowPath = path.CGPath;
+}
+
+- (void)addFocusCustomView {
+    CustomView *view1 = [[CustomView alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
+    view1.backgroundColor = [UIColor redColor];
+    [self.view addSubview:view1];
+    
+    CustomView *view2 = [[CustomView alloc] initWithFrame:CGRectMake(100, 250, 100, 100)];
+    view2.backgroundColor = [UIColor blueColor];
+    [self.view addSubview:view2];
+    
+    CustomView *view3 = [[CustomView alloc] initWithFrame:CGRectMake(100, 400, 100, 100)];
+    view3.backgroundColor = [UIColor orangeColor];
+    [self.view addSubview:view3];
+    
+    [view1 setCenter:CGPointMake(50, 100)];
 }
 
 @end
