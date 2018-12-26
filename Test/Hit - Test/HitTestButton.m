@@ -10,7 +10,6 @@
 
 @implementation HitTestButton
 
-
 - (BOOL)pointInside:(CGPoint)point withEvent:(UIEvent *)event {
     return CGRectContainsPoint(HitTestBounds(self.bounds, self.clickWidth, self.clickHeight), point);
 }

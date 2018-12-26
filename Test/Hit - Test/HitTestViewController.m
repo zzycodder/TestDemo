@@ -25,6 +25,15 @@
    
     self.view.backgroundColor = [UIColor whiteColor];
     
+    /**
+     两种情况：
+     1. 超出button的点击区域依然可以响应点击事件：重写button的`- (BOOL)pointInside:(CGPoint)point withEvent:(nullable UIEvent *)event`方法，将落在button frame外面的point 也返回YES
+     
+     2. 当前的子View超出了父View的bounds范围，依然能够响应事件：重写父View的`- (UIView *)hitTest:(CGPoint)point withEvent:(UIEvent *)event` 方法，去掉`hitTest`内部的`pointInside`方法关于点击是否在父View内的判断。因为如果不在父View内，就不会再去子视图中寻找HitTestView了
+     
+     */
+    
+    
     HitTestSuperView *view = [[HitTestSuperView alloc] initWithFrame:CGRectMake(50, 100, 300, 300)];
     view.backgroundColor = [UIColor blueColor];
     self.hitTestView = view;
