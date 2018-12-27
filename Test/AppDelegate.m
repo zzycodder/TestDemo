@@ -22,6 +22,7 @@
 #import "ThreadVC.h"
 #import "JSONModelVC.h"
 #import "KVCViewController.h"
+#import "RunLoopVC.h"
 
 @interface AppDelegate ()
 
@@ -35,7 +36,7 @@
 //    [[RunLoopMonitor shareInstance] startMonitor];
 
 //    [[PerformanceMonitor sharedInstance] start];
-    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[TestViewController new]];
+    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[RunLoopVC new]];
     self.window.frame = [UIScreen mainScreen].bounds;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
